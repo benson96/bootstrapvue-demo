@@ -11,11 +11,11 @@ import VuetifyGoogleAutocomplete from 'vuetify-google-autocomplete';
 Vue.use(BootstrapVue)
 Vue.use(VueGeolocation)
 Vue.use(VuetifyGoogleAutocomplete,{
-  apiKey: 'AIzaSyDkhuqu2gAuxqnXIy50038vLFlhlyl37Eg'
+  apiKey: ''
 })
 Vue.use(VueGoogleMaps, {
   load:{
-    key: 'AIzaSyDkhuqu2gAuxqnXIy50038vLFlhlyl37Eg'
+    key: ''
   }
 })
 Vue.config.productionTip = false
